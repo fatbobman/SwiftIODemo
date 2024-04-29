@@ -31,7 +31,6 @@ struct ContentView: View {
   var body: some View {
     VStack(spacing: 30) {
       ST7789UIComponent(model: sModel)
-//        .frame(width: 240, height: 240)
           .border(.red, width: 2)
 
       HStack {
