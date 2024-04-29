@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:SandPlayground}",
+      "name": "Debug SandPlayground",
+      "program": "${workspaceFolder:SandPlayground}/.build/debug/SandPlayground",
+      "preLaunchTask": "swift: Build Debug SandPlayground"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:SandPlayground}",
+      "name": "Release SandPlayground",
+      "program": "${workspaceFolder:SandPlayground}/.build/release/SandPlayground",
+      "preLaunchTask": "swift: Build Release SandPlayground"
+    }
+  ]
+}

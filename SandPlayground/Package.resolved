@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "madboards",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/madmachineio/MadBoards.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2f461aceacd111a3ee0805adb7ef949f7ae097d4"
+      }
+    },
+    {
+      "identity" : "maddrivers",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/madmachineio/MadDrivers.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c15ba283916dd316b71eb06052d9939fd6ee82a7"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics",
+      "state" : {
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "swiftio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/madmachineio/SwiftIO.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "82479a14673702b8766b34e10cce82d1374c4f3f"
+      }
+    }
+  ],
+  "version" : 2
+}
